@@ -1,0 +1,225 @@
+.rbc-event.event-azure {
+  background-color: #1a97f5;
+}
+
+.rbc-event.event-default {
+  background-color: #615dff;
+}
+.rbc-event.event-red {
+  background-color: #fc4b6c;
+}
+.rbc-event.event-green {
+  background-color: #39b69a;
+}
+.rbc-event.event-warning {
+  background-color: #fdd43f;
+}
+.rbc-off-range-bg {
+  background-color: #d2d2d20d;
+}
+.darkbg .rbc-today {
+  background-color: #8fbece;
+}
+.rbc-event {
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/* Ensure the event content takes full width */
+.rbc-event-content {
+  width: 100%;
+}
+.rbc-month-row + .rbc-month-row,
+.rbc-day-bg + .rbc-day-bg,
+.rbc-header,
+.rbc-month-view,
+.rbc-toolbar button,
+.rbc-time-content > * + * > * {
+  border-color: #f6f6f6;
+}
+.darkbg .rbc-month-row + .rbc-month-row,
+.darkbg .rbc-day-bg + .rbc-day-bg,
+.darkbg .rbc-header,
+.darkbg .rbc-month-view,
+.darkbg .rbc-toolbar button,
+.darkbg .rbc-time-content > * + * > * {
+  border-color: #343e54;
+}
+.rbc-event:focus,
+.rbc-day-slot .rbc-background-event:focus {
+  outline: none;
+}
+.darkbg .rbc-toolbar button {
+  color: rgba(255, 255, 255, 0.5);
+}
+.darkbg .rbc-toolbar button:active,
+.darkbg .rbc-toolbar button.rbc-active {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #d2d2d20d;
+}
+.form-control {
+  height: 50px;
+  line-height: 40px;
+  font-size: 18px;
+  width: 100%;
+  border-width: 1px;
+  padding: 5px;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.btn {
+  padding: 10px 15px;
+  box-shadow: none !important;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.btn-primary {
+  background-color: #2b2b2b;
+}
+.btn-secondary {
+  background-color: #1a97f5;
+}
+
+@media (max-width: 767px) {
+  .rbc-btn-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .rbc-toolbar .rbc-toolbar-label {
+    margin-bottom: 15px;
+    display: block;
+  }
+  .rbc-calendar {
+    height: 100vh !important;
+  }
+}
+
+.rbc-calendar {
+  min-height: 600px;
+}
+
+.custom-event {
+  height: 100%;
+  padding: 2px 5px;
+}
+
+.custom-event-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-event-title {
+  max-width: 70%;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.custom-event-price {
+  font-size: 0.6em;
+}
+
+.custom-event-booking-type {
+  font-size: 0.6em;
+}
+
+.female-slot {
+  background-color: #ffe4f3 !important;
+  border: 0.3px solid #fff;
+
+  &:before {
+    position: absolute;
+    font-size: 0.6rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e216b3;
+    text-align: center;
+    background: transparent !important;
+  }
+
+  &:not(.nohover):hover {
+    /* transition: all 0.3s ease-in-out; */
+    /* position: relative; */
+    /* cursor: pointer; */
+
+    /* &:before {
+      transition: all 0.3s ease-in-out;
+      font-family: 'Font Awesome 5 Free';
+      content: '\2b' !important;
+      position: absolute;
+      left: 47%;
+      top: 30%;
+      font-size: 12px;
+      text-align: center;
+      border-radius: 20%;
+      color: white;
+      background: #b1d055 !important;
+    } */
+  }
+}
+
+.day-off-slot {
+  background-color: rgb(193, 192, 192) !important;
+  cursor: not-allowed;
+
+  &:before {
+    position: absolute;
+    left: 1px;
+    width: 100%;
+    font-size: 0.6rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    background: transparent !important;
+  }
+
+  &:not(.nohover):hover {
+    background-color: grey !important;
+
+    &:before {
+      content: "\f057";
+      color: black;
+      background-color: transparent;
+    }
+  }
+}
+
+.discount {
+  &:before {
+    position: absolute;
+    width: 100%;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    background: rgba(255, 249, 195, 0.60);
+  }
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #a9cb4a61;
+    position: relative;
+    cursor: pointer;
+
+    &:before {
+      transition: all 0.3s ease-in-out;
+      font-family: 'Font Awesome 5 Free';
+      content: '\2b';
+      position: absolute;
+      left: 47%;
+      top: 30%;
+      font-size: 12px;
+      text-align: center;
+      border-radius: 20%;
+      color: white;
+      background: #b1d055;
+      border: none;
+    }
+  }
+}

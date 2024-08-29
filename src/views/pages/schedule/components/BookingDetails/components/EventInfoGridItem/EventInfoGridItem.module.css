@@ -1,0 +1,15 @@
+.gridItem {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 16px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .contentBox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }

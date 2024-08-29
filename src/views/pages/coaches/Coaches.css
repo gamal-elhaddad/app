@@ -1,0 +1,55 @@
+.coaches-avatar {
+    width: 42px;
+    height: 42px;
+  }
+  
+  .coaches-bio-text {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .coaches-action-button {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .coaches-action-button:hover {
+    color: white;
+  }
+  
+  .coaches-action-button-calendar {
+    background-color: var(--primary-light);
+  }
+  
+  .coaches-action-button-calendar:hover {
+    background-color: var(--primary-main);
+  }
+  
+  .coaches-action-button-packages {
+    background-color: var(--secondary-light);
+  }
+  
+  .coaches-action-button-packages:hover {
+    background-color: var(--secondary-main);
+  }
+  
+  .coaches-action-button-edit {
+    background-color: var(--info-light);
+  }
+  
+  .coaches-action-button-edit:hover {
+    background-color: var(--info-main);
+  }
+  
+  .coaches-action-button-delete {
+    background-color: var(--error-light);
+  }
+  
+  .coaches-action-button-delete:hover {
+    background-color: var(--error-main);
+  }

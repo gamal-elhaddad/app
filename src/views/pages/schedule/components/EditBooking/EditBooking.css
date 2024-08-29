@@ -1,0 +1,26 @@
+.booking-form-drawer .MuiDrawer-paper {
+  background-color: #f5f5f5;
+}
+
+.booking-form-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.booking-form-header {
+  background-color: #f1f1f1;
+  border-radius: 0px !important;
+}
+
+.booking-form-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.booking-form-close-button {
+  color: #666;
+}
+
+.booking-form-close-button:hover {
+  color: #333;
+}

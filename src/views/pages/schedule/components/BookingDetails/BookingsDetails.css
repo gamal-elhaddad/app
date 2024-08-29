@@ -1,0 +1,32 @@
+.drawer-paper {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .booking-form-card {
+    /* Add any specific styles for the BlankCard if needed */
+  }
+  
+  .booking-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 16px;
+  }
+  
+  .booking-form-title {
+    /* Add any specific styles for the title if needed */
+  }
+  
+  .booking-form-close-button {
+    /* Add any specific styles for the close button if needed */
+  }
+  
+  .booking-tabs {
+    margin-bottom: 16px;
+  }
+  
+  .booking-tab {
+    font-weight: bold;
+  }
